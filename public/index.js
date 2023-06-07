@@ -1,4 +1,4 @@
-const ulElement = document.querySelector('.ul-container');
+const ulElement = document.getElementById('food-list');
 
 fetch('http://localhost:3000/data')
   .then((res) => res.json())
